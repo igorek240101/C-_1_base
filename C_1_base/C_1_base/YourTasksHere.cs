@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C_1_base
 {
-    static class YourTaksHere
+    public static class YourTasksHere
     {
 
 
@@ -50,7 +50,7 @@ namespace C_1_base
 
         #region Задача 4
         /*
-         * На вход подается число, необходимо найти и вернуть факториал этого числа
+         * На вход подается число, необходимо найти и вернуть факториал этого числа (гарантируется, что входное число больше или равно 1)
         */
 
         public static int Fuc(int a)
@@ -89,7 +89,7 @@ namespace C_1_base
          * На вход подается массив чисел, необходимо вернуть его полную копию
         */
 
-        public static int[] MaxSearc(int[] array)
+        public static int[] ArrayCopy(int[] array)
         {
             throw new NotImplementedException();
         }
@@ -109,7 +109,7 @@ namespace C_1_base
 
 
         #region Задача 9
-        /*
+        /*SS
          * На вход подается массив, необходимо найти наибольшее значение в нем (рекомендуется использовать функцию из задания 6),
          * а так же вернуть полную копию входного массива с помощью модификатора out (рекомендуется использовать функцию из задания 7)
         */
