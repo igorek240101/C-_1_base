@@ -82,7 +82,7 @@ namespace Test
         }
 
         [TestMethod]
-        public void Arifmetika4()
+        public void Arifmetika5()
         {
             Assert.AreEqual(1, YourTasksHere.Arifmetika(1, -2));
         }
