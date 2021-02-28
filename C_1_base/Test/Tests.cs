@@ -33,9 +33,9 @@ namespace Test
         [TestMethod]
         public void isTrungle2()
         {
-            Assert.AreEqual(false, YourTasksHere.isTrungle(1, 2, 1));
-            Assert.AreEqual(false, YourTasksHere.isTrungle(2, 1, 1));
-            Assert.AreEqual(false, YourTasksHere.isTrungle(1, 1, 2));
+            Assert.AreEqual(false, YourTasksHere.isTrungle(1, 3, 1));
+            Assert.AreEqual(false, YourTasksHere.isTrungle(3, 1, 1));
+            Assert.AreEqual(false, YourTasksHere.isTrungle(1, 1, 3));
         }
 
         [TestMethod]
