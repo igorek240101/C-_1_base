@@ -78,6 +78,12 @@ namespace Test
         [TestMethod]
         public void Arifmetika4()
         {
+            Assert.AreEqual(1, YourTasksHere.Arifmetika(1, -1));
+        }
+
+        [TestMethod]
+        public void Arifmetika4()
+        {
             Assert.AreEqual(1, YourTasksHere.Arifmetika(1, -2));
         }
 
