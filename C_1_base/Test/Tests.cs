@@ -72,7 +72,7 @@ namespace Test
         [TestMethod]
         public void Arifmetika3()
         {
-            Assert.AreEqual(1, YourTasksHere.Arifmetika(-1, 2));
+            Assert.AreEqual(3, YourTasksHere.Arifmetika(-1, 2));
         }
 
         [TestMethod]
@@ -84,7 +84,7 @@ namespace Test
         [TestMethod]
         public void Arifmetika5()
         {
-            Assert.AreEqual(1, YourTasksHere.Arifmetika(1, -2));
+            Assert.AreEqual(3, YourTasksHere.Arifmetika(1, -2));
         }
 
         [TestMethod]
