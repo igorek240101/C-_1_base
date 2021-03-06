@@ -9,7 +9,6 @@ namespace C_1_base
     public static class YourTasksHere
     {
 
-
         #region Задача 1
         /*
          * На вход подаются два катета прямоугольного тругольника требуется найти площадь этого тругольника
@@ -17,7 +16,8 @@ namespace C_1_base
 
         public static double SquerOfTrungle(uint a, uint b)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return (double)(a*b) / 2;
         }
         #endregion
 
@@ -31,7 +31,8 @@ namespace C_1_base
 
         public static bool isTrungle(uint a, uint b, uint c)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return a <= (b + c) && b <= (a + c) && c <= (a + b) ;
         }
         #endregion
 
@@ -43,7 +44,8 @@ namespace C_1_base
 
         public static int Arifmetika(int a, int b)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return (a * b) > 0 ? a + b : Math.Abs(a - b);
         }
         #endregion
 
@@ -55,7 +57,11 @@ namespace C_1_base
 
         public static int Fuc(int a)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            int answer = 1;
+            for (int i = 0; i < a; i++)
+                answer *= (i + 1);
+            return answer;
         }
         #endregion
 
@@ -67,7 +73,12 @@ namespace C_1_base
 
         public static int[] ArrayCreate(int n)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            int[] array = new int[n];
+            int size = n;
+            for (int i = 0; i < n; i++)
+                array[i] = size--;
+            return array;
         }
         #endregion
 
@@ -79,7 +90,15 @@ namespace C_1_base
 
         public static int MaxSearch(int[] array)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            int max = array[0];
+            for(int i = 0; i < array.Length; i++)
+                if (array[i] > max)
+                    max = array[i];
+            for(int i = 0; i < array.Length; i++)
+                if (array[i] == max)
+                    return i;
+            return - 1;
         }
         #endregion
 
@@ -91,7 +110,10 @@ namespace C_1_base
 
         public static int[] ArrayCopy(int[] array)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            int[] arrayCopy = new int[array.Length];
+            Array.Copy(array,0,arrayCopy,0,array.Length);
+            return arrayCopy;
         }
         #endregion
 
@@ -100,10 +122,14 @@ namespace C_1_base
         /*
          * Реализуйте рекурсивную функцию нахождения чисел Фибоначи (a(n) = a(n-1) + a(n-2), где a(1) - 1, a(2) - 2)
         */
-
+        // Не уверен что это правильная математическая реализация, по-моему 1 1 2 3 5...
         public static int Fibonachi(int n)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            if (n == 1 || n == 2)
+                return n == 1 ? 1 : 2;
+            else
+                return Fibonachi(n - 1) + Fibonachi(n - 2);
         }
         #endregion
 
@@ -114,10 +140,12 @@ namespace C_1_base
          * а так же вернуть полную копию входного массива с помощью модификатора out (рекомендуется использовать функцию из задания 7)
         */
 
-        public static int HardArray(int[] intput, out int[] output)
+        public static int HardArray(int[] input, out int[] output)
         {
-            throw new NotImplementedException();
-        }
+            //throw new NotImplementedException();
+            output = ArrayCopy(input);
+            return input[MaxSearch(input)];
+    }
         #endregion
 
 
@@ -131,7 +159,12 @@ namespace C_1_base
 
         public static void Fight(ref int health1, int power1, ref int health2, int power2)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            while (health1 > 0 && health2 > 0)
+            {
+                health2 -= power1;
+                health1 -= power2;
+            }
         }
         #endregion
     }
