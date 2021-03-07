@@ -17,7 +17,7 @@ namespace C_1_base
 
         public static double SquerOfTrungle(uint a, uint b)
         {
-            throw new NotImplementedException();
+            return (double)a * b / 2;
         }
         #endregion
 
@@ -31,7 +31,7 @@ namespace C_1_base
 
         public static bool isTrungle(uint a, uint b, uint c)
         {
-            throw new NotImplementedException();
+            return a <= b + c && b <= a + c && c <= b + a;
         }
         #endregion
 
@@ -43,7 +43,7 @@ namespace C_1_base
 
         public static int Arifmetika(int a, int b)
         {
-            throw new NotImplementedException();
+            return a * b < 0 ? Math.Abs(a - b) : a + b;
         }
         #endregion
 
@@ -55,7 +55,14 @@ namespace C_1_base
 
         public static int Fuc(int a)
         {
-            throw new NotImplementedException();
+            int factorial = 1;
+
+            for (int i = 1; i <= a; i++)
+            {
+                factorial *= i;
+            }
+
+            return factorial;
         }
         #endregion
 
@@ -67,7 +74,14 @@ namespace C_1_base
 
         public static int[] ArrayCreate(int n)
         {
-            throw new NotImplementedException();
+            int[] array = new int[n];
+
+            for (int i = 0; i < array.Length; i++, n--)
+            {
+                array[i] = n;
+            }
+
+            return array;
         }
         #endregion
 
@@ -79,7 +93,7 @@ namespace C_1_base
 
         public static int MaxSearch(int[] array)
         {
-            throw new NotImplementedException();
+            return Array.FindIndex(array, i => i == array.Max());
         }
         #endregion
 
@@ -91,7 +105,14 @@ namespace C_1_base
 
         public static int[] ArrayCopy(int[] array)
         {
-            throw new NotImplementedException();
+            int[] CopyArray = new int[array.Length];
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                CopyArray[i] = array[i];
+            }
+
+            return CopyArray;
         }
         #endregion
 
@@ -103,7 +124,12 @@ namespace C_1_base
 
         public static int Fibonachi(int n)
         {
-            throw new NotImplementedException();
+            if (n == 0 || n == 1)
+            {
+                return 1;
+            }
+
+            return Fibonachi(n - 1) + Fibonachi(n - 2);
         }
         #endregion
 
@@ -116,7 +142,9 @@ namespace C_1_base
 
         public static int HardArray(int[] intput, out int[] output)
         {
-            throw new NotImplementedException();
+            output = ArrayCopy(intput);
+
+            return intput[MaxSearch(intput)];
         }
         #endregion
 
@@ -131,7 +159,11 @@ namespace C_1_base
 
         public static void Fight(ref int health1, int power1, ref int health2, int power2)
         {
-            throw new NotImplementedException();
+            while (health1 > 0 && health2 > 0)
+            {
+                health1 -= power2;
+                health2 -= power1;
+            }
         }
         #endregion
     }
