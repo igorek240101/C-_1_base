@@ -61,10 +61,6 @@
       <Project>{eed9a6ab-6106-44b2-9972-3a4eee191d45}</Project>
       <Name>C_1_base</Name>
     </ProjectReference>
-    <ProjectReference Include="..\C_2_base\C_2_base.csproj">
-      <Project>{1924b0e4-a27b-4877-b31c-71cbe788b96c}</Project>
-      <Name>C_2_base</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
