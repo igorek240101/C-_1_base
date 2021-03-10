@@ -17,3 +17,9 @@ C:\Users\Игорь\Documents\C#\1\C-_1_base\C_1_base\C_1_base\bin\Debug\ru\Micr
 C:\Users\Игорь\Documents\C#\1\C-_1_base\C_1_base\C_1_base\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
 C:\Users\Игорь\Documents\C#\1\C-_1_base\C_1_base\C_1_base\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 C:\Users\Игорь\Documents\C#\1\C-_1_base\C_1_base\C_1_base\obj\Debug\C_1_base.csproj.CopyComplete
+D:\GitHub\C-_1_base\C_1_base\C_1_base\bin\Debug\C_1_base.dll
+D:\GitHub\C-_1_base\C_1_base\C_1_base\bin\Debug\C_1_base.pdb
+D:\GitHub\C-_1_base\C_1_base\C_1_base\obj\Debug\C_1_base.csprojAssemblyReference.cache
+D:\GitHub\C-_1_base\C_1_base\C_1_base\obj\Debug\C_1_base.csproj.CoreCompileInputs.cache
+D:\GitHub\C-_1_base\C_1_base\C_1_base\obj\Debug\C_1_base.dll
+D:\GitHub\C-_1_base\C_1_base\C_1_base\obj\Debug\C_1_base.pdb
