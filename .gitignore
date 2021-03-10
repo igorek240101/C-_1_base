@@ -1,6 +1,4 @@
-C_1_base/.vs/C_1_base/v16/.suo
 *.testlog
-C_1_base/.vs/C_1_base/v16/.suo
 *.manifest
 *.sln
 *.dll
@@ -11,3 +9,4 @@ C_1_base/C_1_base/HarderTaskHere.cs
 *.txt
 *.CopyComplete
 *.exe
+*.suo
