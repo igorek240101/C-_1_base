@@ -32,25 +32,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="LMath_C">
-      <HintPath>..\..\..\VAC\VAC\VAC\VAC\Math_Module\LMath_M\bin\Debug\LMath_C.dll</HintPath>
+      <HintPath>.\LMath_C.dll</HintPath>
     </Reference>
     <Reference Include="LMath_M">
-      <HintPath>..\..\..\VAC\VAC\VAC\VAC\Math_Module\LMath_M\bin\Debug\LMath_M.dll</HintPath>
+      <HintPath>.\LMath_M.dll</HintPath>
     </Reference>
     <Reference Include="LMath_Main">
-      <HintPath>..\..\..\VAC\VAC\VAC\VAC\Math_Module\LMath_Main\bin\Debug\LMath_Main.dll</HintPath>
+      <HintPath>.\LMath_Main.dll</HintPath>
     </Reference>
     <Reference Include="LMath_N">
-      <HintPath>..\..\..\VAC\VAC\VAC\VAC\Math_Module\LMath_M\bin\Debug\LMath_N.dll</HintPath>
+      <HintPath>.\LMath_N.dll</HintPath>
     </Reference>
     <Reference Include="LMath_P">
-      <HintPath>..\..\..\VAC\VAC\VAC\VAC\Math_Module\LMath_M\bin\Debug\LMath_P.dll</HintPath>
+      <HintPath>.\LMath_P.dll</HintPath>
     </Reference>
     <Reference Include="LMath_Q">
-      <HintPath>..\..\..\VAC\VAC\VAC\VAC\Math_Module\LMath_M\bin\Debug\LMath_Q.dll</HintPath>
+      <HintPath>.\LMath_Q.dll</HintPath>
     </Reference>
     <Reference Include="LMath_Z">
-      <HintPath>..\..\..\VAC\VAC\VAC\VAC\Math_Module\LMath_M\bin\Debug\LMath_Z.dll</HintPath>
+      <HintPath>.\LMath_Z.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
