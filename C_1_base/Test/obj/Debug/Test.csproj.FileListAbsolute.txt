@@ -17,3 +17,5 @@ D:\GitHub\C-_1_base\C_1_base\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
 D:\GitHub\C-_1_base\C_1_base\Test\obj\Debug\Test.csproj.CopyComplete
 D:\GitHub\C-_1_base\C_1_base\Test\obj\Debug\Test.dll
 D:\GitHub\C-_1_base\C_1_base\Test\obj\Debug\Test.pdb
+D:\GitHub\C-_1_base\C_1_base\Test\bin\Debug\C_2_base.dll
+D:\GitHub\C-_1_base\C_1_base\Test\bin\Debug\C_2_base.pdb
