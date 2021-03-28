@@ -1,0 +1,12 @@
+D:\GitHub\Education\Book\bin\Debug\Book.exe.config
+D:\GitHub\Education\Book\bin\Debug\Book.exe
+D:\GitHub\Education\Book\bin\Debug\Book.pdb
+D:\GitHub\Education\Book\obj\Debug\Book.csprojAssemblyReference.cache
+D:\GitHub\Education\Book\obj\Debug\Book.Form1.resources
+D:\GitHub\Education\Book\obj\Debug\Book.Properties.Resources.resources
+D:\GitHub\Education\Book\obj\Debug\Book.csproj.GenerateResource.cache
+D:\GitHub\Education\Book\obj\Debug\Book.csproj.CoreCompileInputs.cache
+D:\GitHub\Education\Book\obj\Debug\Book.exe
+D:\GitHub\Education\Book\obj\Debug\Book.pdb
+D:\GitHub\Education\Book\obj\Debug\Book.UserControl1.resources
+D:\GitHub\Education\Book\obj\Debug\Book.CreateForm.resources
