@@ -47,7 +47,6 @@ namespace C_5_base
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            Process.Start(@"C:\Users\User\Pictures\1.bmp");
         }
     }
 }
